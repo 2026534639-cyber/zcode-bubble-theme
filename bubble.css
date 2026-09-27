@@ -1,0 +1,19 @@
+/*__UI_MOD_BUBBLE__ v3 — DeepSeek 萌化主题：品牌浅蓝用户气泡 + Q版鲸鱼水印 */
+/* 用户气泡：DeepSeek 浅蓝，无边框，16px 统一圆角 */
+[class*="user-row"] [class*="rounded-xl"][class*="bg-surface"] {
+  background: #e1e9ff !important;
+  border-color: transparent !important;
+  border-radius: 16px !important;
+}
+html.theme-zai-dark [class*="user-row"] [class*="rounded-xl"][class*="bg-surface"] {
+  background: #263252 !important;
+  border-color: transparent !important;
+}
+/* 鲸鱼水印：挂在消息列表滚动容器上（该类名全局唯一），背景层不挡字 */
+[class*="--markdown-table-layout-left-inset"] {
+  background-image: url("./whale_wm.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 36px bottom 90px !important;
+  background-size: 230px auto !important;
+}
+/* __UI_MOD_BUBBLE__ END */

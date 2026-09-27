@@ -1,0 +1,9 @@
+{
+  "name": "zcode-ui-mod",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ZCode desktop bubble-UI patch (installer core)",
+  "dependencies": {
+    "@electron/asar": "^3.4.1"
+  }
+}
